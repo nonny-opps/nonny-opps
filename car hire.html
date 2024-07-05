@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        input[type="text"], input[type="date"], input[type="time"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Rental Form</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>Surname:</th>
+                <td><input type="text" name="surname"></td>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <th>Pick up Date:</th>
+                <td><input type="date" name="pick_up_date"></td>
+            </tr>
+            <tr>
+                <th>Drop off Date:</th>
+                <td><input type="date" name="drop_off_date"></td>
+            </tr>
+            <tr>
+                <th>Time:</th>
+                <td><input type="time" name="time"></td>
+            </tr>
+            <tr>
+                <th>Vehicle Type:</th>
+                <td>
+                    <input type="radio" name="vehicle_type" value="SUV"> SUV
+                    <input type="radio" name="vehicle_type" value="Sedan"> Sedan
+                </td>
+            </tr>
+            <tr>
+                <th>Additional Services:</th>
+                <td>
+                    <input type="checkbox" name="gps" value="GPS"> GPS
+                    <input type="checkbox" name="baby_seat" value="Baby Seat"> Baby Seat
+                </td>
+            </tr>
+        </table>
+        
+        <input type="submit" value="Submit">
+    </form>
+	
+	
+	<p>When collecting the car</p> <br>
+
+		Budget requests your bank to reserve a temporary authorisation hold against the funds of your card.
+		Your bank will usually present this as a pending transaction that reduces the money you have available to spend.
+		This might appear as a debit on your statement, but it is not. 
+		No funds are debited from your bank account.
+		This temporary authorisation hold will be the estimated cost of your rental (including a security authorisation and any extras accepted) less any amount paid in advance. An additional location specific / weekend authorisation hold may apply.<br><br> 
+		
+		When returning the car  <br><br>
+
+		Once your bank account has been debited with the invoice amount, the temporary authorisation hold will be released by your bank. 
+		As this was a temporary authorisation hold and not debited, the release will not be shown as a transaction on your bank statement, instead your available balance will increase. 
+		The time to release the temporary authorisation hold is dependant on your bank, and in certain instances it may take up to 30 days before it is released. <br><br>
+
+    <h2>Subscribe to our website for more updates:</h2>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Subscribe">
+    </form> <br><br>
+    
+    <img src="https://cdn.motor1.com/images/mgl/Oo0e1B/s2/2024-jeep-wrangler-rubicon-392-final-edition.webp" alt="Vehicle Image">
+</body>
+</html>
